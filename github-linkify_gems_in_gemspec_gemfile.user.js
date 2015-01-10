@@ -52,3 +52,7 @@ var tryLinkify = function (){
 };
 
 tryLinkify();
+
+unsafeWindow.$(unsafeWindow.document).on('pjax:success', function(){
+  tryLinkify();
+});
