@@ -3,6 +3,7 @@
 // @version        0.2
 // @author         vzvu3k6k
 // @match          https://github.com/*
+// @grant          none
 // @namespace      http://vzvu3k6k.tk/
 // @license        CC0
 // ==/UserScript==
