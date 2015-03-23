@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           GitHub: Linkify gems in *.gemspec and Gemfile
-// @version        0.2
+// @version        0.3
 // @author         vzvu3k6k
 // @match          https://github.com/*
 // @grant          none
