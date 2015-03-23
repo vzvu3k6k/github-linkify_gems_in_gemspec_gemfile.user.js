@@ -4,6 +4,7 @@
 // @author         vzvu3k6k
 // @match          https://github.com/*
 // @grant          none
+// @noframes
 // @namespace      http://vzvu3k6k.tk/
 // @license        CC0
 // ==/UserScript==
