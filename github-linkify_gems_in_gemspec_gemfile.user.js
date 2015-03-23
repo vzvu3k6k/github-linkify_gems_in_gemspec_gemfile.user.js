@@ -38,7 +38,7 @@ var tryLinkify = function (){
   }
 
   var labels = Array.prototype.filter.call(
-    document.querySelector('.file .blob-wrapper').querySelectorAll('.pl-s1'),
+    document.querySelector('.file .blob-wrapper').querySelectorAll('.pl-s'),
     filter
   );
 
