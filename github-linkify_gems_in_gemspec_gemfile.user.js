@@ -14,7 +14,7 @@ var gemUrl = function(gemName){
 var filters = {
   gemspec: function(node){
     if (!node.previousSibling) return false;
-    return /spec\.add_(?:development_|runtime_)?dependency/.test(node.previousSibling.textContent);
+    return /\.add_(?:development_|runtime_)?dependency/.test(node.previousSibling.textContent);
   },
   gemfile: function(node){
     if (!node.previousSibling) return false;
