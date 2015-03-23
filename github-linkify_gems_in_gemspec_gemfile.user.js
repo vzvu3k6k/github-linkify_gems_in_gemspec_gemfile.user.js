@@ -54,6 +54,7 @@ var tryLinkify = function (){
 
 tryLinkify();
 
-unsafeWindow.$(unsafeWindow.document).on('pjax:success', function(){
+var w = (typeof unsafeWindow !== 'undefined') ? unsafeWindow : window;
+w.$(w.document).on('pjax:success', function(){
   tryLinkify();
 });
